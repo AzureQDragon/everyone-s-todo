@@ -1,0 +1,31 @@
+.wrapper {
+
+    min-height: 100vh;
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button{
+    height: 25px;
+    width: 25px;
+    float: right;
+} 
+
+.list-wrapper {
+    max-height: 800px;
+    overflow-y: auto;
+    width: 700px;
+    font-size: .5em;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 20pt;
+}
